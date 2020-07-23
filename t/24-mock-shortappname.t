@@ -2,6 +2,13 @@ use strict;
 use warnings;
 use Test::More;
 
+BEGIN {
+    # Remove all relevant env variables to avoid accidental fail
+    foreach my $name ( grep { m{^(CATALYST)} } keys %ENV ) {
+        delete $ENV{ $name };
+    }
+}
+
 {
     package QX;
     use strict;
