@@ -12,7 +12,6 @@ my %META = (
     test => {
       requires => {
         'Test::More' => 0,
-        'Path::Class' => 0,
       },
     },
     runtime => {
