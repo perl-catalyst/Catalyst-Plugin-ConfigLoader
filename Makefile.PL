@@ -32,8 +32,8 @@ my %META = (
   resources => {
     repository => {
       # rw: catagits@git.shadowcat.co.uk:Catalyst-Plugin-ConfigLoader.git
-      url => 'git://git.shadowcat.co.uk/catagits/Catalyst-Plugin-ConfigLoader.git',
-      web => 'http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=catagits/Catalyst-Plugin-ConfigLoader.git',
+      url => 'https://github.com/perl-catalyst/Catalyst-Plugin-ConfigLoader.git',
+      web => 'https://github.com/perl-catalyst/Catalyst-Plugin-ConfigLoader',
       type => 'git',
     },
     x_IRC => 'irc://irc.perl.org/#catalyst',
